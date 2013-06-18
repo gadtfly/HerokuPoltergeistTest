@@ -68,3 +68,6 @@ module HerokuPoltergeistTest
     config.assets.version = '1.0'
   end
 end
+
+require 'capybara/poltergeist'
+Capybara.javascript_driver = :poltergeist
