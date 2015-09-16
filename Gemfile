@@ -1,4 +1,5 @@
 source 'https://rubygems.org'
+# I changed a thing
 gem 'rails', '3.2.13'
 gem 'pg'
 group :assets do
